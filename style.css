@@ -1,0 +1,122 @@
+body, 
+html {
+  font-family: "Signika", sans-serif;
+  margin: 0;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+}
+
+.container {
+  width: 95%;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.header {
+  height: 100px;
+  background-color: #171a21;
+  color: #FFF;
+  line-height: 100px;
+}
+
+.slogan {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+
+@media (max-width: 992px) {
+  .slogan {
+    display: none;
+  }
+}
+
+.content {
+  margin-top: 8%;
+}
+
+.box {
+  width: 100%;
+  background-color: rgba(23,26,33, 0.6);
+  border: 1px solid #171a21;
+  color: #F1F1F1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  font-weight: lighter;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 15px;
+}
+
+.btn-lg {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.25px;
+  font-weight: bold;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer-text {
+  color: #F1F1F1;
+  text-transform: uppercase;
+  opacity: 0.65;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #171a21;
+}
+
+.modal-content {
+  color: #F1F1F1;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.modal-header,
+.modal-footer,
+.modal-content {
+  background-color: #171a21;
+}
+
+.btn-default,
+.btn-primary {
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #445;
+}
